@@ -1,0 +1,10 @@
+
+- Node: Node.js es un entorno de ejecución de JavaScript, que le permite al código en js ser ejecutado en nuestra computadora.
+Podemos darle a node un archivo de js y éste puede ejecutarlo, y darle acceso a recursos de nuestra computadora (IO, Network, Etc).
+Url de descarga: https://nodejs.org/en  (Descargar e instalar la versión LTS).
+Comando de consola para verificar la instalación: node -v 
+
+- Npm: Cuando usamos Node.js, rápidamente tenemos que instalar módulos nuevos (librerías), ya que al ser un sistema fuertemente 
+modular viene prácticamente “vacío”. Por lo tanto, para utilizar una funcionalidad de alguna librería publicada, 
+deberemos instalar módulos adicionales. Esta operación se realiza de forma muy sencilla con la herramienta npm 
+(Node Package Manager).

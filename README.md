@@ -4,6 +4,7 @@
 
 - [Visual Studio Code](https://code.visualstudio.com/download "Visual Studio Code")
 - [Google Chrome](https://www.google.com/intl/es-419/chrome/ "Google Chrome")
+- [NodeJs](https://nodejs.org/en "NodeJs") Versión LTS
 
 ## Extensiones necesarias para Visual Studio Code
 
