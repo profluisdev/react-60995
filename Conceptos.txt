@@ -1,3 +1,4 @@
+Conceptos importantes
 
 - Node: Node.js es un entorno de ejecución de JavaScript, que le permite al código en js ser ejecutado en nuestra computadora.
 Podemos darle a node un archivo de js y éste puede ejecutarlo, y darle acceso a recursos de nuestra computadora (IO, Network, Etc).
@@ -8,3 +9,28 @@ Comando de consola para verificar la instalación: node -v
 modular viene prácticamente “vacío”. Por lo tanto, para utilizar una funcionalidad de alguna librería publicada, 
 deberemos instalar módulos adicionales. Esta operación se realiza de forma muy sencilla con la herramienta npm 
 (Node Package Manager).
+
+- React: es una librería de JavaScript desarrollada por Facebook que es ampliamente utilizada para crear SPAs y aplicaciones web
+de una sola página. React se enfoca en la creación de interfaces de usuario (UI) interactivas y reactivas.
+Url documentación en español: https://es.react.dev/
+
+-Componentes: React se basa en un enfoque de desarrollo basado en componentes. Los componentes son bloques de código 
+reutilizables que representan partes de la interfaz de usuario. Puedes componer aplicaciones completas dividiéndolas 
+en componentes más pequeños.
+
+- SPA: Una SPA (Single Page Application) es un tipo de aplicación web que carga una sola página HTML inicial y, en lugar de cargar 
+páginas web completas cada vez que un usuario navega a diferentes secciones, utiliza técnicas de JavaScript para cambiar 
+dinámicamente el contenido de esa página única. Esto proporciona una experiencia de usuario más fluida y rápida, 
+ya que no es necesario recargar toda la página.
+
+- Virtual DOM: React utiliza un concepto llamado Virtual DOM para mejorar el rendimiento. En lugar de actualizar 
+directamente el DOM del navegador cada vez que cambia el estado de la aplicación, React crea una representación 
+virtual del DOM y compara los cambios entre la representación virtual y el DOM real para actualizar solo las partes que han cambiado. 
+Esto reduce la carga en el navegador y mejora la velocidad de la aplicación.
+
+- Vite: es una herramienta de compilación que tiene como objetivo proporcionar una experiencia de desarrollo más rápida 
+y ágil para proyectos web modernos. 
+Es un entorno de desarrollo web moderno que se utiliza para crear aplicaciones web y proyectos de JavaScript. 
+Vite se ha vuelto popular en la comunidad de desarrollo web debido a su velocidad y eficiencia en la construcción y desarrollo de aplicaciones.
+Url: https://vitejs.dev/
+Comando de consola para la creación de un proyecto: npm create vite@latest
