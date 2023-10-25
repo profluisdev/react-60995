@@ -34,3 +34,25 @@ Es un entorno de desarrollo web moderno que se utiliza para crear aplicaciones w
 Vite se ha vuelto popular en la comunidad de desarrollo web debido a su velocidad y eficiencia en la construcción y desarrollo de aplicaciones.
 Url: https://vitejs.dev/
 Comando de consola para la creación de un proyecto: npm create vite@latest
+
+- Sugar Syntax: Sugar Syntax refiere a la sintaxis agregada a un lenguaje de programación con el objetivo de hacer 
+más fácil y eficiente su utilización. Favorece su escritura, lectura y comprensión. Ej: Operadores ternarios
+
+- Polyfills: Los polyfills nos permiten hacer nuestra aplicación compatible con navegadores antiguos, 
+que no admiten de forma nativa alguna nueva funcionalidad.
+
+- Empaquetador: Es una herramienta de construcción (build tool) ampliamente utilizada en el desarrollo web y 
+de aplicaciones. Su función principal es tomar diversos archivos fuente, como archivos JavaScript, CSS, imágenes 
+y otros recursos, luego los compila en un solo archivo (o varios) optimizados de manera eficiente que pueda ser utilizado 
+por un navegador web. Esto es particularmente útil en aplicaciones web modernas, donde el código fuente 
+tiende a estar dividido en múltiples archivos para facilitar el desarrollo y el mantenimiento.
+Algunos empaquetadores conocidos son Webpack y el que usamos nosotros Rollup con vite.
+
+- Transpiling: Es el proceso de convertir código escrito en un lenguaje, a su representación en otro lenguaje, por ejemplo pasar de Typescript a JavaScript. 
+Usualmente extienden o simplifican la escritura del lenguaje, o representación original. Por ejemplo nosotros
+escribimos código de Sass y luego se los transpila a código de css. 
+
+- JSX: Es una extensión de sintaxis de Javascript que se parece a HTML. En React escribimos el código en JSX 
+como si fuese un HTML pero al momento de la momento de renderizar en el DOM se transpila a código de JavaScript para que
+pueda ser interpretado por el navegador.
+Url ref: https://es.react.dev/learn/writing-markup-with-jsx
