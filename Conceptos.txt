@@ -56,3 +56,36 @@ escribimos código de Sass y luego se los transpila a código de css.
 como si fuese un HTML pero al momento de la momento de renderizar en el DOM se transpila a código de JavaScript para que
 pueda ser interpretado por el navegador.
 Url ref: https://es.react.dev/learn/writing-markup-with-jsx
+
+
+- Componente: Es un conjunto de elementos que cumplen una función específica en la interfaz de usuario.
+Se utilizan para construir la jerarquía de todos esos elementos. Cada componente puede contener otros 
+componentes como hijos.
+Los componentes tienen 3 características fundamentales:
+1 - Renderizar un solo elemento: una solución es usar los fragments <> </> 
+2 - Pueden recibir propiedades.
+3 - Pueden tener un estado.
+
+- Props: Las props en React se utilizan para pasar datos de un componente padre a un componente hijo, 
+manteniendo el flujo unidireccional de los datos. 
+Las props son objetos que contienen datos específicos que un componente necesita para renderizarse correctamente. 
+Esto permite la reutilización de componentes en diferentes partes de la aplicación con diferentes datos.
+
+- Estado: Los estados de un componente en React se utilizan para representar la información que puede cambiar 
+durante la vida útil del componente y afectar su representación en la interfaz de usuario.
+Todo cambio de estado va inicializar el proceso de render a partir del nodo donde se produjo el cambio de 
+estado y así se generará el nuevo Virtual DOM que luego será reconciliado. 
+Los estados son un concepto de React, no de JavaScrip, para implementarlos vamos a utilizar los hooks.
+
+- Hook: Los hooks son funciones que se pueden usar dentro de los componentes funcionales para agregar 
+funcionalidad adicional de React. 
+Son varias las funcionalidades, pero una de ellas son los estados, con el hook useState.
+Características: 
+* Comienzan con el prefijo “use” para que React pueda identificarlos y realizar validaciones. 
+* Solamente pueden utilizarse dentro de componentes funcionales.
+* Deben ejecutarse siempre, es decir, en cada renderizado y el orden de ejecución debe ser siempre el mismo.
+ No puede estar dentro de if, for, etc.
+* Deben ejecutarse siempre en el cuerpo de la función del componente, por lo que normalmente se los ejecuta al inicio.
+
+- useState: useState es un hook de React que permite a los componentes funcionales tener estado.
+https://es.react.dev/reference/react/useState
