@@ -39,6 +39,7 @@ export const HookUseEffect = () => {
   useEffect(() => {
     console.log("Cambio de estado de count 2");
   }, [count2]);
+  
 
   return (
     <>
