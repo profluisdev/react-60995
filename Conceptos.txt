@@ -89,3 +89,22 @@ Características:
 
 - useState: useState es un hook de React que permite a los componentes funcionales tener estado.
 https://es.react.dev/reference/react/useState
+
+- Children:  el término "children" se refiere a una de las propiedades especiales que se pueden pasar a un componente React. 
+Las "children" son simplemente cualquier contenido que esté incluido entre las etiquetas de apertura y cierre de un 
+componente React. Esto permite que los componentes React contengan otros componentes o elementos JSX como hijos.
+https://es.react.dev/reference/react/Children
+
+- Ciclo de vida de un componente: En React, los componentes tienen un ciclo de vida que consta de una serie de fases y 
+métodos que se ejecutan en momentos específicos durante la vida de un componente. Estas fases permiten a los 
+desarrolladores controlar y gestionar el comportamiento de un componente en diferentes etapas, como la creación, 
+actualización y eliminación.
+Son 3 las etapas del ciclo de vida de un componente:
+1 - Montaje: Se produce la primera ves que un componente va a generarse incluyéndose el DOM.<
+2 - Actualización: Se produce cuando el componente ya generado se está actualizando.
+3 - Desmontaje: Se produce cuando el componente se elimina del DOM.
+
+- useEffect: Es un Hook fundamental en React que te permite realizar efectos secundarios en tus componentes funcionales. 
+Los efectos secundarios pueden ser tareas asincrónicas, suscripciones a eventos, manipulación del DOM, y más. 
+useEffect se utiliza para gestionar estos efectos secundarios de manera segura y eficiente.
+https://es.react.dev/reference/react/useEffect
