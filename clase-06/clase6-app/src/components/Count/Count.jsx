@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "../Button/Button";
 
 export const Count = ({initial = 0, max}) => {
-  // Agregar el max luego
+
   const [count, setCount] = useState(initial);
 
   const increment = () => {
