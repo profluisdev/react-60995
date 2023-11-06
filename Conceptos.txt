@@ -108,3 +108,13 @@ Son 3 las etapas del ciclo de vida de un componente:
 Los efectos secundarios pueden ser tareas asincrónicas, suscripciones a eventos, manipulación del DOM, y más. 
 useEffect se utiliza para gestionar estos efectos secundarios de manera segura y eficiente.
 https://es.react.dev/reference/react/useEffect
+
+- Promise: Es un objeto de Javascript que representa un evento a futuro. Es una acción asincrónica que se puede 
+completar en algún momento y producir un valor, y notificar cuando esto suceda.
+Una promesa cuenta con tres estados posibles: 
+1- Pendiente (Pending): Cuando se crea una Promesa, está en estado pendiente, lo que significa que la operación 
+  asincrónica aún no se ha completado.
+2- Resuelta (Fulfilled): Una Promesa está resuelta cuando la operación asincrónica se ha completado con éxito. 
+   En este caso, la Promesa contiene un valor resultante.
+3- Rechazada (Rejected): Una Promesa está rechazada cuando la operación asincrónica falla. En este caso, 
+   la Promesa contiene una razón o un objeto que indica el motivo del fallo.
