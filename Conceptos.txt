@@ -118,3 +118,7 @@ Una promesa cuenta con tres estados posibles:
    En este caso, la Promesa contiene un valor resultante.
 3- Rechazada (Rejected): Una Promesa está rechazada cuando la operación asincrónica falla. En este caso, 
    la Promesa contiene una razón o un objeto que indica el motivo del fallo.
+
+- Custom Hook: es una función JavaScript que te permite encapsular lógica reutilizable en una aplicación de React. 
+Los custom hooks son una forma de compartir lógica entre componentes sin necesidad de duplicar código. 
+Estas funciones personalizadas siguen las reglas de los hooks de React y pueden utilizar otros hooks existentes. 

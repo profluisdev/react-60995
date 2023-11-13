@@ -4,7 +4,7 @@ import { Button } from "../Button/Button";
 
 export const CharacterListContainer = () => {
   const [characters, setCharacters] = useState([]);
-  const [page, setPage] = useState(40);
+  const [page, setPage] = useState(1);
 
   const getCharacters = async () => {
     try {
