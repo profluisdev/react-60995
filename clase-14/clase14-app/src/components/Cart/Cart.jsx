@@ -35,3 +35,19 @@ export const Cart = () => {
     </Box>
   );
 };
+
+
+
+/* 
+Orden de compra 
+
+collection: "orders"
+documents: las ordenes de compra 
+document = {
+  buyer: { name, phone, email },
+  items: {id, name, price, quantity, subTotal},
+  date: serverTimestamp();
+  total: es el total de la compra
+}
+
+*/

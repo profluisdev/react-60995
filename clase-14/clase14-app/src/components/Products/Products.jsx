@@ -3,11 +3,12 @@ import { Box, Button, Typography } from "@mui/material";
 import { collection, doc, getDoc, getDocs, query, where } from "firebase/firestore";
 import { useContext, useEffect, useState } from "react";
 import { db } from "../../config/firebaseConfig";
-import { CardItem } from "../CardItem/CardItem";
 import { CartContext } from "../../context/CartContext";
-
+import { CardItem } from "../CardItem/CardItem";
+// Atajo de teclado para borrar importaciones no usadas  alt + shift + O (letra O)
 export const Products = () => {
 
+  
  const { totalQuantity } = useContext(CartContext);
 
   const [products, setProducts] = useState([]);
@@ -56,6 +57,7 @@ export const Products = () => {
 
   return (
     <>
+      {/* NavBar */}
       <Box component="nav" display="flex" justifyContent="space-around">
         <Button variant="contained" color="inherit" onClick={() => console.log("Click")}>
           Home
@@ -74,6 +76,7 @@ export const Products = () => {
       <Typography fontSize={25} marginBottom={3}>
         Productos
       </Typography>
+      {/* Productos - ItemListContainer.jsx */}
       <Box component="div" display="flex" flexWrap="wrap">
         {isLoading ? <h2>Cargando productos ...</h2> : products.map((product) => (
           <CardItem key={product.id} {...product} />

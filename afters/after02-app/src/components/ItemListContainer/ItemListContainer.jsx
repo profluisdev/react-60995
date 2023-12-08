@@ -40,5 +40,5 @@ export const ItemListContainer = () => {
       .catch((error) => console.log(error));
   }, [category]); // Controlamos el cambio de parámetros para recargar el componente y ejecutar el useEffect
 
-  return <>{isLoading ? <h2> Cargando productos... </h2> : <ItemList products={products} />}</>;
+  return <>{ isLoading ? <h2> Cargando productos... </h2> : <ItemList products={products} />}</>;
 };
